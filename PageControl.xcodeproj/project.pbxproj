@@ -1,0 +1,380 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC48AFD716F1519000F25D20 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC48AFD616F1519000F25D20 /* UIKit.framework */; };
+		DC48AFD916F1519000F25D20 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC48AFD816F1519000F25D20 /* Foundation.framework */; };
+		DC48AFDB16F1519000F25D20 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC48AFDA16F1519000F25D20 /* CoreGraphics.framework */; };
+		DC48AFE116F1519000F25D20 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DC48AFDF16F1519000F25D20 /* InfoPlist.strings */; };
+		DC48AFE316F1519000F25D20 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DC48AFE216F1519000F25D20 /* main.m */; };
+		DC48AFE716F1519000F25D20 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DC48AFE616F1519000F25D20 /* AppDelegate.m */; };
+		DC48AFE916F1519000F25D20 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = DC48AFE816F1519000F25D20 /* Default.png */; };
+		DC48AFEB16F1519000F25D20 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC48AFEA16F1519000F25D20 /* Default@2x.png */; };
+		DC48AFED16F1519000F25D20 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC48AFEC16F1519000F25D20 /* Default-568h@2x.png */; };
+		DC48AFF016F1519000F25D20 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC48AFEF16F1519000F25D20 /* ViewController.m */; };
+		DC48AFF316F1519000F25D20 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC48AFF116F1519000F25D20 /* ViewController_iPhone.xib */; };
+		DC48AFF616F1519000F25D20 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC48AFF416F1519000F25D20 /* ViewController_iPad.xib */; };
+		DC48B00016F151B100F25D20 /* GMPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC48AFFE16F151B100F25D20 /* GMPageViewController.m */; };
+		DC48B00116F151B100F25D20 /* GMPageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC48AFFF16F151B100F25D20 /* GMPageViewController.xib */; };
+		DC48B00516F1530A00F25D20 /* GMDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC48B00316F1530900F25D20 /* GMDataViewController.m */; };
+		DC48B00E16F172E300F25D20 /* DataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC48B00C16F172E300F25D20 /* DataViewController.m */; };
+		DC48B00F16F172E300F25D20 /* DataViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC48B00D16F172E300F25D20 /* DataViewController.xib */; };
+		DC48B01116F17AC600F25D20 /* img.png in Resources */ = {isa = PBXBuildFile; fileRef = DC48B01016F17AC600F25D20 /* img.png */; };
+		DC48B01416F17B2C00F25D20 /* UIImageView+Transition.m in Sources */ = {isa = PBXBuildFile; fileRef = DC48B01316F17B2C00F25D20 /* UIImageView+Transition.m */; };
+		DC710DB616F185D100524BF7 /* GMDataLoadingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DC710DB516F185D100524BF7 /* GMDataLoadingManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DC48AFD316F1519000F25D20 /* PageControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PageControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC48AFD616F1519000F25D20 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DC48AFD816F1519000F25D20 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DC48AFDA16F1519000F25D20 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DC48AFDE16F1519000F25D20 /* PageControl-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PageControl-Info.plist"; sourceTree = "<group>"; };
+		DC48AFE016F1519000F25D20 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DC48AFE216F1519000F25D20 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DC48AFE416F1519000F25D20 /* PageControl-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PageControl-Prefix.pch"; sourceTree = "<group>"; };
+		DC48AFE516F1519000F25D20 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DC48AFE616F1519000F25D20 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DC48AFE816F1519000F25D20 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		DC48AFEA16F1519000F25D20 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		DC48AFEC16F1519000F25D20 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		DC48AFEE16F1519000F25D20 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DC48AFEF16F1519000F25D20 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DC48AFF216F1519000F25D20 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		DC48AFF516F1519000F25D20 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		DC48AFFD16F151B100F25D20 /* GMPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMPageViewController.h; sourceTree = "<group>"; };
+		DC48AFFE16F151B100F25D20 /* GMPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMPageViewController.m; sourceTree = "<group>"; };
+		DC48AFFF16F151B100F25D20 /* GMPageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GMPageViewController.xib; sourceTree = "<group>"; };
+		DC48B00216F1530900F25D20 /* GMDataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMDataViewController.h; sourceTree = "<group>"; };
+		DC48B00316F1530900F25D20 /* GMDataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMDataViewController.m; sourceTree = "<group>"; };
+		DC48B00B16F172E300F25D20 /* DataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataViewController.h; sourceTree = "<group>"; };
+		DC48B00C16F172E300F25D20 /* DataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataViewController.m; sourceTree = "<group>"; };
+		DC48B00D16F172E300F25D20 /* DataViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DataViewController.xib; sourceTree = "<group>"; };
+		DC48B01016F17AC600F25D20 /* img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img.png; sourceTree = "<group>"; };
+		DC48B01216F17B2C00F25D20 /* UIImageView+Transition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+Transition.h"; sourceTree = "<group>"; };
+		DC48B01316F17B2C00F25D20 /* UIImageView+Transition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Transition.m"; sourceTree = "<group>"; };
+		DC710DB416F185D100524BF7 /* GMDataLoadingManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMDataLoadingManager.h; sourceTree = "<group>"; };
+		DC710DB516F185D100524BF7 /* GMDataLoadingManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMDataLoadingManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC48AFD016F1519000F25D20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC48AFD716F1519000F25D20 /* UIKit.framework in Frameworks */,
+				DC48AFD916F1519000F25D20 /* Foundation.framework in Frameworks */,
+				DC48AFDB16F1519000F25D20 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC48AFCA16F1519000F25D20 = {
+			isa = PBXGroup;
+			children = (
+				DC48AFDC16F1519000F25D20 /* PageControl */,
+				DC48AFD516F1519000F25D20 /* Frameworks */,
+				DC48AFD416F1519000F25D20 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC48AFD416F1519000F25D20 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC48AFD316F1519000F25D20 /* PageControl.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC48AFD516F1519000F25D20 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DC48AFD616F1519000F25D20 /* UIKit.framework */,
+				DC48AFD816F1519000F25D20 /* Foundation.framework */,
+				DC48AFDA16F1519000F25D20 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC48AFDC16F1519000F25D20 /* PageControl */ = {
+			isa = PBXGroup;
+			children = (
+				DC48AFFC16F1519800F25D20 /* PageControl */,
+				DC48AFE516F1519000F25D20 /* AppDelegate.h */,
+				DC48AFE616F1519000F25D20 /* AppDelegate.m */,
+				DC48AFEE16F1519000F25D20 /* ViewController.h */,
+				DC48AFEF16F1519000F25D20 /* ViewController.m */,
+				DC48AFF116F1519000F25D20 /* ViewController_iPhone.xib */,
+				DC48AFF416F1519000F25D20 /* ViewController_iPad.xib */,
+				DC48B01216F17B2C00F25D20 /* UIImageView+Transition.h */,
+				DC48B01316F17B2C00F25D20 /* UIImageView+Transition.m */,
+				DC48AFDD16F1519000F25D20 /* Supporting Files */,
+			);
+			path = PageControl;
+			sourceTree = "<group>";
+		};
+		DC48AFDD16F1519000F25D20 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC48AFDE16F1519000F25D20 /* PageControl-Info.plist */,
+				DC48AFDF16F1519000F25D20 /* InfoPlist.strings */,
+				DC48AFE216F1519000F25D20 /* main.m */,
+				DC48AFE416F1519000F25D20 /* PageControl-Prefix.pch */,
+				DC48AFE816F1519000F25D20 /* Default.png */,
+				DC48AFEA16F1519000F25D20 /* Default@2x.png */,
+				DC48AFEC16F1519000F25D20 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DC48AFFC16F1519800F25D20 /* PageControl */ = {
+			isa = PBXGroup;
+			children = (
+				DC48B00A16F15C1700F25D20 /* GMPageViewControl */,
+				DC48B00B16F172E300F25D20 /* DataViewController.h */,
+				DC48B00C16F172E300F25D20 /* DataViewController.m */,
+				DC48B00D16F172E300F25D20 /* DataViewController.xib */,
+				DC48B01016F17AC600F25D20 /* img.png */,
+			);
+			name = PageControl;
+			sourceTree = "<group>";
+		};
+		DC48B00A16F15C1700F25D20 /* GMPageViewControl */ = {
+			isa = PBXGroup;
+			children = (
+				DC48AFFD16F151B100F25D20 /* GMPageViewController.h */,
+				DC48AFFE16F151B100F25D20 /* GMPageViewController.m */,
+				DC48AFFF16F151B100F25D20 /* GMPageViewController.xib */,
+				DC48B00216F1530900F25D20 /* GMDataViewController.h */,
+				DC48B00316F1530900F25D20 /* GMDataViewController.m */,
+				DC710DB416F185D100524BF7 /* GMDataLoadingManager.h */,
+				DC710DB516F185D100524BF7 /* GMDataLoadingManager.m */,
+			);
+			name = GMPageViewControl;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC48AFD216F1519000F25D20 /* PageControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC48AFF916F1519000F25D20 /* Build configuration list for PBXNativeTarget "PageControl" */;
+			buildPhases = (
+				DC48AFCF16F1519000F25D20 /* Sources */,
+				DC48AFD016F1519000F25D20 /* Frameworks */,
+				DC48AFD116F1519000F25D20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PageControl;
+			productName = PageControl;
+			productReference = DC48AFD316F1519000F25D20 /* PageControl.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC48AFCB16F1519000F25D20 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Jooyoung Lee";
+			};
+			buildConfigurationList = DC48AFCE16F1519000F25D20 /* Build configuration list for PBXProject "PageControl" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DC48AFCA16F1519000F25D20;
+			productRefGroup = DC48AFD416F1519000F25D20 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC48AFD216F1519000F25D20 /* PageControl */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC48AFD116F1519000F25D20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC48AFE116F1519000F25D20 /* InfoPlist.strings in Resources */,
+				DC48AFE916F1519000F25D20 /* Default.png in Resources */,
+				DC48AFEB16F1519000F25D20 /* Default@2x.png in Resources */,
+				DC48AFED16F1519000F25D20 /* Default-568h@2x.png in Resources */,
+				DC48AFF316F1519000F25D20 /* ViewController_iPhone.xib in Resources */,
+				DC48AFF616F1519000F25D20 /* ViewController_iPad.xib in Resources */,
+				DC48B00116F151B100F25D20 /* GMPageViewController.xib in Resources */,
+				DC48B00F16F172E300F25D20 /* DataViewController.xib in Resources */,
+				DC48B01116F17AC600F25D20 /* img.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC48AFCF16F1519000F25D20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC48AFE316F1519000F25D20 /* main.m in Sources */,
+				DC48AFE716F1519000F25D20 /* AppDelegate.m in Sources */,
+				DC48AFF016F1519000F25D20 /* ViewController.m in Sources */,
+				DC48B00016F151B100F25D20 /* GMPageViewController.m in Sources */,
+				DC48B00516F1530A00F25D20 /* GMDataViewController.m in Sources */,
+				DC48B00E16F172E300F25D20 /* DataViewController.m in Sources */,
+				DC48B01416F17B2C00F25D20 /* UIImageView+Transition.m in Sources */,
+				DC710DB616F185D100524BF7 /* GMDataLoadingManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DC48AFDF16F1519000F25D20 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC48AFE016F1519000F25D20 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DC48AFF116F1519000F25D20 /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC48AFF216F1519000F25D20 /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		DC48AFF416F1519000F25D20 /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC48AFF516F1519000F25D20 /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC48AFF716F1519000F25D20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DC48AFF816F1519000F25D20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC48AFFA16F1519000F25D20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PageControl/PageControl-Prefix.pch";
+				INFOPLIST_FILE = "PageControl/PageControl-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DC48AFFB16F1519000F25D20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PageControl/PageControl-Prefix.pch";
+				INFOPLIST_FILE = "PageControl/PageControl-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC48AFCE16F1519000F25D20 /* Build configuration list for PBXProject "PageControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC48AFF716F1519000F25D20 /* Debug */,
+				DC48AFF816F1519000F25D20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC48AFF916F1519000F25D20 /* Build configuration list for PBXNativeTarget "PageControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC48AFFA16F1519000F25D20 /* Debug */,
+				DC48AFFB16F1519000F25D20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC48AFCB16F1519000F25D20 /* Project object */;
+}
