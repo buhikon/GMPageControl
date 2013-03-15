@@ -7,7 +7,7 @@
 //
 
 #import "DataViewController.h"
-#import "UIImageView+Transition.h"
+
 
 @interface DataViewController ()
 
